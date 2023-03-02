@@ -1,0 +1,15 @@
+.receta__botón {
+
+    background: #DA2B1F;
+    border: none;
+    border-radius: 5px;
+    color: #FDFDFD;
+    padding: 1rem;
+    transition: all .1s ease-in-out;
+}
+
+.receta__botón:hover {
+
+    cursor: pointer;
+    background: #9F1010;
+}

@@ -1,0 +1,26 @@
+.persona__imagen {
+
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+} /* background-position: center; es una propiedad utilizada para centrar la imagen de fondo. */
+/* background-repeat: no-repeat; es una propiedad utilizada para que no se repita la imagen de fondo. */
+
+.persona__imagen--roberta {
+
+    background-image: url('../../img/personas/roberta.jpg');
+} /* background-image: url('...'); es una propiedad utilizada para referenciar una imagen. */
+
+.persona__imagen--marcela {
+
+    background-image: url('../../img/personas/marcela.jpg');
+}
+
+.persona__imagen--andréia {
+
+    background-image: url('../../img/personas/andrea.jpg');
+}

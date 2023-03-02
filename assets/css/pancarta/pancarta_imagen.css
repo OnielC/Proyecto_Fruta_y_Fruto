@@ -1,0 +1,24 @@
+.pancarta__imagen {
+
+    background: url('../../img/banner.png') no-repeat center / cover;
+    /*background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;*/
+    width: 100%;
+}
+
+@media screen and (min-width:0) {
+    
+    .pancarta__imagen {
+
+        height: calc(100vw - 51px);
+    }
+}
+
+@media screen and (min-width:768px) {
+    
+    .pancarta__imagen {
+
+        height: calc(100vw - 72px);
+    }
+}
